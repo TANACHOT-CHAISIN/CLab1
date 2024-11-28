@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main(){
-	int a=20; 
-	int b=10;
+	int a,b;
+	printf("Enter First Number: ");
+	scanf("%d",&a);
+	printf("Enter Another Number: ");
+	scanf("%d",&b);
 	if (a > b){
 		printf("A more than B");
 	}
