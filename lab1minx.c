@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-	int a=10; 
-	int b=20;
+	int a=20; 
+	int b=10;
 	if (a > b){
 		printf("A more than B");
 	}
-	if (b > a){
+	else{
 		printf("B more than A");
 	}
 	return 0;
